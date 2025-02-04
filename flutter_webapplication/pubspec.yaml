@@ -9,6 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    http: ^1.1.2
+    flutter_form_builder: ^9.1.1
+# This package helps in creation of data collection forms in Flutter by removing the boilerplate needed to build a form, validate fields, react to changes and collect final user input.
+    form_builder_validators: ^11.1.1
+# Form Builder Validators set of validators for any FormField widget or widgets that extend the FormField
 
 dev_dependencies:
   flutter_test:
