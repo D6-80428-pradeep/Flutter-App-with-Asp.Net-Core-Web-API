@@ -12,9 +12,9 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Main Page'),
+        title: const Text('Flutter Web Application'),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 49, 65, 52),
+        backgroundColor: const Color.fromARGB(255, 34, 40, 32),
         foregroundColor: const Color.fromARGB(255, 46, 253, 19),
       ),
            
