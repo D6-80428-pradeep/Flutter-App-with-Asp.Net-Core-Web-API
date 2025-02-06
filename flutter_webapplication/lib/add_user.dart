@@ -39,12 +39,12 @@ class _AddUserState extends State<AddUser> {
       appBar: AppBar(
         title: const Text("Add User"),
         centerTitle: true,
-        backgroundColor: Colors.teal,
-        foregroundColor: Colors.white,
+        backgroundColor: const Color.fromARGB(255, 37, 47, 40),
+        foregroundColor:const Color.fromARGB(255, 0, 241, 4),
       ),
       bottomNavigationBar: MaterialButton(
-        color: Colors.teal,
-        textColor: Colors.white,
+        color: const Color.fromARGB(255, 37, 47, 40),
+        textColor: const Color.fromARGB(255, 0, 241, 4),
         padding: const EdgeInsets.all(20),
         onPressed: addUser,
         child: const Text('Add'),
